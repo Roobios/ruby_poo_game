@@ -18,7 +18,7 @@ enemies = Array.new
 enemies << player1
 enemies << player2
 
-# Boucle Tant que l'un des deux joueurs n'est pas mort
+# Boucle Tant que l'un des deux joueurs ne sont pas mort
 while user.life_points >0 && (player1.life_points > 0 || player2.life_points >0)
     system("clear")
     sum_life = 0
