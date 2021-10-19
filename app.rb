@@ -13,8 +13,8 @@ while player1.life_points > 0 && player2.life_points > 0
     puts
     puts ("-" * 50)
     puts "Voici l'état de chaque joueur :"
-    player1.show_state
-    player2.show_state
+    puts player1.show_state
+    puts player2.show_state
     puts ("-" * 50)
     puts
     puts "Passons à la phase d'attaque :"
